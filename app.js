@@ -50,6 +50,9 @@ function takeCommand(message) {
     } else if (message.includes("who made you") || message.includes("creator") || message.includes("who created you") || message.includes("who coded you")) {
         speak("I was made by Watson. He created me in an attempt towards making his first completely indigenous homegrown AI Bot.");
         speak("  Apart from this project, He has also made a platformer game in java, six web based games in javascript and some other javascript applications. THANK YOU for the question about my dad though.");
+    } 
+    else if (message.includes("sohini")) {
+        speak("Well, to summarize up, sohini is basically a bisexual being dwelling on this planet. she is a short heighted lesbian");
     } else if (message.includes("open google")) {
         window.open("https://google.com", "_blank");
         speak("Opening Google...");
@@ -89,3 +92,4 @@ function takeCommand(message) {
         speak(finalText);
     }
 }
+
