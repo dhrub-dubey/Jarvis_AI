@@ -48,7 +48,7 @@ function takeCommand(message) {
     if (message.includes("Sohini")|| message.includes("sohini")) {
         speak("Well, to summarize up, sohini is basically a bisexual being dwelling on this planet. she is a short heighted lesbian.Onnly does bad touch");
         return;
-    }else if (message.includes("M D Sir")) {
+    }else if (message.includes("MD sir") || message.includes("md sir")) {
         speak("shaada chul wala bokachoda");
         return;
     }else if (message.includes('hey') || message.includes('hello')) {
@@ -95,6 +95,7 @@ function takeCommand(message) {
         speak(finalText);
     }
 }
+
 
 
 
