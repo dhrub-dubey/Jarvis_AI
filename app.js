@@ -90,11 +90,12 @@ function takeCommand(message) {
         const finalText = "Opening Spotify";
         speak(finalText);
     } else {
-        window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
+        window.open(`https://www.google.com/search?q=${message.replace(/ /g, "+")}`, "_blank");
         const finalText = "I found some information for " + message + " on Google";
         speak(finalText);
     }
 }
+
 
 
 
